@@ -34,11 +34,12 @@ class InputTodo extends Component {
         <input
           type="text"
           placeholder="Add Todo..."
+          className="input-text"
           value={title}
           name="title"
           onChange={this.onChange}
         />
-        <button type="submit">Submit</button>
+        <button type="submit" className="input-submit">Submit</button>
       </form>
     );
   }
